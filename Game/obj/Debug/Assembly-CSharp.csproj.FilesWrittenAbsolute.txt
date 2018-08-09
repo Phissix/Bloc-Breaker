@@ -1,0 +1,17 @@
+/Users/msimon/workspace/unity/udemy/unity-udemy-block-breaker/Block Breaker/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/msimon/workspace/unity/udemy/unity-udemy-block-breaker/Block Breaker/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/msimon/workspace/unity/udemy/unity-udemy-block-breaker/Block Breaker/obj/Debug/Assembly-CSharp.dll
+/Users/msimon/workspace/unity/udemy/unity-udemy-block-breaker/Block Breaker/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/msimon/workspace/unity/udemy/unity-udemy-block-breaker/Block Breaker/Temp/bin/Debug/UnityEngine.dll
+/Users/msimon/workspace/unity/udemy/unity-udemy-block-breaker/Block Breaker/Temp/bin/Debug/UnityEditor.dll
+/Users/msimon/workspace/unity/udemy/unity-udemy-block-breaker/Block Breaker/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/msimon/workspace/unity/udemy/unity-udemy-block-breaker/Block Breaker/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/msimon/workspace/unity/udemy/unity-udemy-block-breaker/Block Breaker/Temp/bin/Debug/Mono.Cecil.dll
+/Users/msimon/workspace/unity/udemy/unity-udemy-block-breaker/Block Breaker/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/msimon/workspace/unity/udemy/unity-udemy-block-breaker/Block Breaker/Temp/bin/Debug/Unity.DataContract.dll
+/Users/msimon/workspace/unity/udemy/unity-udemy-block-breaker/Block Breaker/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/msimon/workspace/unity/udemy/unity-udemy-block-breaker/Block Breaker/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/msimon/workspace/unity/udemy/unity-udemy-block-breaker/Block Breaker/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/msimon/workspace/unity/udemy/unity-udemy-block-breaker/Block Breaker/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/msimon/workspace/unity/udemy/unity-udemy-block-breaker/Block Breaker/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/msimon/workspace/unity/udemy/unity-udemy-block-breaker/Block Breaker/Temp/bin/Debug/Mono.Cecil.Mdb.dll
