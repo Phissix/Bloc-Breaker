@@ -19,12 +19,11 @@ public class LevelManager : MonoBehaviour {
 	/// Quits the application (if application can be quitted).
 	/// </summary>
 	public void QuitRequest() {
-		Debug.Log ("Quit request");
 		Application.Quit ();
 	}
 
 	/// <summary>
-	/// Loads the next level.
+	/// Loads the next level set in the BuildSettings
 	/// </summary>
 	public void LoadNextLevel() {
 		Application.LoadLevel (Application.loadedLevel + 1);
@@ -34,6 +33,7 @@ public class LevelManager : MonoBehaviour {
 	/// Notifies a brick has been destroyed and decides to load next level.
 	/// </summary>
 	public void BrickDestroyed() {
+		// - Detect level win condition
 		if (Brik.breakableCount <= 0) {
 			LoadNextLevel ();
 		}
