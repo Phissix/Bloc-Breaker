@@ -1,40 +1,27 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-/// <summary>
 /// Script  handling the ball behavior.
-/// </summary>
 public class Ball : MonoBehaviour {
-
-	/// <summary>
+	
 	/// Flag informing if the game has been started
-	/// </summary>
 	private bool hasStarted = false;
 
-	/// <summary>
 	/// The paddle script. Used to anchor the ball to the paddle while the
 	/// game is not started.
-	/// </summary>
 	private Paddle paddle;
 
-	/// <summary>
 	/// The paddle to ball vector.
-	/// </summary>
 	private Vector3 paddleToBallVector;
 
-	/// <summary>
 	/// Start this instance.
-	/// </summary>
-	void Start () {
+	void Start() {
 		// - Find the paddle object and calculate the vector
 		paddle = GameObject.FindObjectOfType<Paddle> ();
 		paddleToBallVector = this.transform.position - paddle.transform.position;
 	}
 
-	/// <summary>
-	/// Update this instance.
-	/// </summary>
-	void Update () {
+	void Update() {
 
 		if (!hasStarted) {
 			// - Lock the ball to the paddle if game has not started
@@ -51,15 +38,15 @@ public class Ball : MonoBehaviour {
 		}
 	}
 
-	/// <summary>
+	
 	/// Raises the collision enter2 d event and tweaks the ball velocity
 	/// with a randomized vector. This will prevent infinte loops to happen.
-	/// </summary>
 	/// <param name="col">Col.</param>
+
 	void OnCollisionEnter2D(Collision2D col) {
 
 		// - Random vector
-		Vector2 tweak = new Vector2 (Random.Range(0f, 0.2f), Random.Range(0f, 0.2f));
+		Vector2 tweak = new Vector2(Random.Range(0f, 0.2f), Random.Range(0f, 0.2f));
 
 		if (hasStarted) {
 			// - Apply tweak velocity
